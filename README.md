@@ -35,33 +35,43 @@ A simple Python script that evaluates the strength of a user-provided password b
    python password_checker.py
 
 
-Limitations
-Educational Purpose Only:
-This tool is meant to demonstrate basic password checking logic. It should not be used as a standalone security measure or relied upon for critical systems.
+## Limitations
 
-Not a Comprehensive Security Solution:
-Password strength is more nuanced and can be influenced by multiple factors (e.g., brute force time, dictionary attacks, context-based vulnerabilities). This script does not account for all real-world attack vectors.
+1. **Educational Purpose Only**  
+   This tool is meant to demonstrate basic password checking logic. It should **not** be used as a standalone security measure or relied upon for critical systems.
 
-Potential False Sense of Security:
-A high score here does not guarantee absolute security. Attackers can still exploit breaches, phishing, or other techniques to obtain passwords. Always follow best security practices.
+2. **Not a Comprehensive Security Solution**  
+   Password strength is more nuanced and can be influenced by multiple factors (e.g., brute force time, dictionary attacks, context-based vulnerabilities). This script **does not** account for all real-world attack vectors.
 
-Ethical Considerations & Responsible Use
-Responsible Usage:
+3. **Potential False Sense of Security**  
+   A high score here **does not guarantee** absolute security. Attackers can still exploit breaches, phishing, or other techniques to obtain passwords. Always follow best security practices.
 
-Use this script only on passwords you are authorized to test.
-Do not store or share any passwords tested.
-Do not modify this script to capture or misuse sensitive data.
-Potential Misuse:
+---
 
-Someone could adapt this to log and store passwords entered, which would be malicious.
-There is a risk that users may trust the output too heavily. Always educate users about broader security hygiene.
-Reporting & Disclosure:
+## Ethical Considerations & Responsible Use
 
-If you suspect security flaws in this script, please report them responsibly.
-This project is intended to raise awareness on password hygiene, not to be a production-grade solution.
-Contributing
+1. **Responsible Usage**  
+   - Use this script **only** on passwords you are authorized to test.  
+   - **Do not** store or share any passwords tested.  
+   - **Do not** modify this script to capture or misuse sensitive data.
+
+2. **Potential Misuse**  
+   - Someone could adapt this tool to log and store passwords entered, which would be malicious.  
+   - There is a risk that users may trust the output too heavily. Always educate users about broader security hygiene.
+
+3. **Reporting & Disclosure**  
+   - If you suspect security flaws in this script, please report them responsibly.  
+   - This project is intended to raise awareness on password hygiene, not to be a production-grade solution.
+
+---
+
+## Contributing
+
 Feel free to open issues or submit pull requests to improve functionality or fix bugs. Since this is an educational tool, we welcome enhancements that help demonstrate security best practices and highlight pitfalls of simplistic password checks.
 
-License
-MIT License
+---
+
+## License
+
+**MIT License**  
 You are free to use, modify, and distribute this script as per the MIT license terms.
